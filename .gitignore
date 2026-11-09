@@ -1,0 +1,6 @@
+buffalooilandgas/
+_shot-*.html
+_frame-*.html
+node_modules/
+.DS_Store
+Thumbs.db

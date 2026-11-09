@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en-GH" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Design System | Buffalo Oil Limited</title>
+<meta name="description" content="Buffalo Oil Limited website design system: colours, typography, spacing, components and moodboard.">
+<meta name="theme-color" content="#060a11">
+<meta property="og:title" content="Design System | Buffalo Oil Limited">
+<meta property="og:description" content="Buffalo Oil Limited website design system: colours, typography, spacing, components and moodboard.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/hero-truck-highway.jpg">
+<link rel="icon" type="image/png" href="assets/img/buffalo-mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<meta name="robots" content="noindex"><style>
+.sg-section{padding-block:64px;border-bottom:1px solid var(--line)}
+.sg-section h2{font-size:clamp(1.8rem,1.4rem + 1.4vw,2.6rem);font-weight:800;margin-bottom:8px}
+.sg-section>.container>p{color:var(--text-muted);margin-bottom:32px;max-width:640px}
+.sg-colors{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
+.sg-swatch strong{display:block;margin-top:10px;font-size:.95rem}.sg-swatch code{font-size:.8rem;color:var(--text-muted)}
+.sg-swatch__chip{height:110px;border-radius:14px;border:1px solid var(--line);display:flex;align-items:flex-end;padding:10px 12px;font-size:.8rem;font-weight:700}
+.sg-type>div{display:grid;gap:8px 32px;grid-template-columns:1fr;padding:22px 0;border-top:1px solid var(--line);align-items:baseline}
+@media(min-width:800px){.sg-type>div{grid-template-columns:200px 1fr}}
+.sg-type small{color:var(--text-muted);font-size:.8rem;line-height:1.5}
+.sg-row{display:flex;flex-wrap:wrap;gap:16px;align-items:center;padding:28px;border-radius:20px;background:var(--paper)}
+.sg-row--dark{background:var(--ink-950)}
+.sg-icons{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(110px,1fr))}
+.sg-icons div{display:grid;justify-items:center;gap:10px;padding:18px 8px;border-radius:12px;border:1px solid var(--line);font-size:.72rem;color:var(--text-muted)}
+.sg-icons .icon{color:var(--ink-900);width:28px;height:28px}
+.sg-space{display:grid;gap:10px}.sg-space div{display:flex;align-items:center;gap:16px;font-size:.85rem}.sg-space span{height:16px;background:var(--orange-500);border-radius:4px}
+.sg-mood{display:grid;gap:12px;grid-template-columns:repeat(2,1fr)}
+@media(min-width:900px){.sg-mood{grid-template-columns:repeat(4,1fr);grid-auto-rows:220px}.sg-mood .tall{grid-row:span 2}.sg-mood .wide{grid-column:span 2}}
+.sg-mood>*{border-radius:16px;overflow:hidden;min-height:180px;position:relative}
+.sg-mood img{width:100%;height:100%;object-fit:cover}
+.sg-mood .word{display:grid;place-items:center;font-family:var(--font-display);font-weight:800;font-size:1.6rem;letter-spacing:-.02em}
+.sg-grid-demo{display:grid;grid-template-columns:repeat(12,1fr);gap:24px;height:120px}.sg-grid-demo span{background:rgba(243,156,31,.15);border:1px dashed var(--orange-500);border-radius:6px}
+@media(max-width:700px){.sg-grid-demo{grid-template-columns:repeat(4,1fr);gap:16px}.sg-grid-demo span:nth-child(n+5){display:none}}
+</style>
+</head>
+<body class="no-hero">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></symbol><symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17L17 7M8 7h9v9"/></symbol><symbol id="i-truck" viewBox="0 0 24 24"><path d="M2 6.5h11v9.5H2zM13 9.5h4.5l3.5 3.6V16h-8z"/><circle cx="6.5" cy="17.5" r="2"/><circle cx="17" cy="17.5" r="2"/></symbol><symbol id="i-tanker" viewBox="0 0 24 24"><path d="M2 8.5a3 3 0 013-3h7.5a3 3 0 013 3v4.5H2z"/><path d="M15.5 9h3l3 3.5V16h-6.5"/><path d="M2 13v3h3.5M10.5 16h2.5"/><circle cx="7.5" cy="17" r="2"/><circle cx="18" cy="17" r="2"/></symbol><symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 2.8s6.5 7.1 6.5 11.7A6.5 6.5 0 015.5 14.5C5.5 9.9 12 2.8 12 2.8z"/><path d="M9 15a3 3 0 003 3"/></symbol><symbol id="i-pump" viewBox="0 0 24 24"><path d="M4 21V5a2 2 0 012-2h7a2 2 0 012 2v16M3 21h13M7 7h5v4H7z"/><path d="M15 9h2a2 2 0 012 2v6a1.5 1.5 0 003 0V8.5L19 5"/></symbol><symbol id="i-factory" viewBox="0 0 24 24"><path d="M2 21V10l6 3.5V10l6 3.5V5h4l1 16zM2 21h20"/><path d="M6 17h2M11 17h2"/></symbol><symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2.5l8 3v6c0 5-3.4 8.7-8 10-4.6-1.3-8-5-8-10v-6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol><symbol id="i-badge" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M9 14.5L7.5 22 12 19.5 16.5 22 15 14.5"/><path d="M9.5 9l1.8 1.8L14.5 7.5"/></symbol><symbol id="i-handshake" viewBox="0 0 24 24"><path d="M2 11l4-4 3 1 3-2 3 1 4 4"/><path d="M2 11l3 3M22 11l-3 3-3.5 3.5a1.6 1.6 0 01-2.3 0L9 13.3"/><path d="M12 6l-3.5 3.5a1.5 1.5 0 002 2L13 9l4 4"/><path d="M8 17l1.5 1.5M10.5 19l1 1"/></symbol><symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M12 6.5V12l3.5 2"/></symbol><symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h3.5l1.7 4.4-2.2 1.4a11 11 0 006.2 6.2l1.4-2.2L20 14.5V18a2 2 0 01-2 2A16 16 0 013 5a2 2 0 012-2z"/></symbol><symbol id="i-mail" viewBox="0 0 24 24"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="M3 6l9 7 9-7"/></symbol><symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21.5s7-6.2 7-12a7 7 0 00-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9.5" r="2.6"/></symbol><symbol id="i-building" viewBox="0 0 24 24"><path d="M4 21V4.5L13 2v19M13 8.5l7 2V21M2 21h20M7 7h3M7 11h3M7 15h3M16 13h1.5M16 17h1.5"/></symbol><symbol id="i-oilcan" viewBox="0 0 24 24"><path d="M3 11h11l5-3 2.5 1.5-6 6.5H5a2 2 0 01-2-2z"/><path d="M7 11V8h4v3M21 17.5a1 1 0 11-2 0c0-.8 1-2 1-2s1 1.2 1 2z"/></symbol><symbol id="i-flame" viewBox="0 0 24 24"><path d="M12 22c4 0 7-2.7 7-6.8 0-3.5-2.2-5.7-3.8-7.7-.4 1.9-1.3 3-2.4 3.6.3-3.2-.9-6.3-3.8-8.6.2 3.4-1.7 5.6-3.3 7.7C4.8 12.2 5 13.8 5 15.2 5 19.3 8 22 12 22z"/><path d="M12 22c-1.7 0-3-1.2-3-3 0-1.9 1.8-3 3-5 1.2 2 3 3.1 3 5 0 1.8-1.3 3-3 3z"/></symbol><symbol id="i-barrel" viewBox="0 0 24 24"><ellipse cx="12" cy="4.5" rx="7" ry="2"/><path d="M5 4.5v15c0 1.1 3.1 2 7 2s7-.9 7-2v-15M5 9.5c0 1.1 3.1 2 7 2s7-.9 7-2M5 14.5c0 1.1 3.1 2 7 2s7-.9 7-2"/></symbol><symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0113 0M16 4.7a3.5 3.5 0 010 6.6M18.5 14a6.5 6.5 0 013 6"/></symbol><symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0116 0"/></symbol><symbol id="i-hardhat" viewBox="0 0 24 24"><path d="M3 17h18v2.5H3zM4.5 17a7.5 7.5 0 0115 0"/><path d="M10 9.7V5h4v4.7M8 10.5V8M16 10.5V8"/></symbol><symbol id="i-tractor" viewBox="0 0 24 24"><circle cx="7" cy="16" r="4"/><circle cx="18.5" cy="17.5" r="2.5"/><path d="M7 16h.01M11 16h5M3 12V6h6l2 6M11 12h7.5l1 3"/><path d="M15 12V7"/></symbol><symbol id="i-pickaxe" viewBox="0 0 24 24"><path d="M14 6.5L3.5 20.5M5 6c3.2-2.6 7.6-3.2 11.5-1.5M18 7.5c1.7 3.9 1.1 8.3-1.5 11.5"/><path d="M13.5 4l6.5 6.5"/></symbol><symbol id="i-crane" viewBox="0 0 24 24"><path d="M6 21V3l13 4M6 3l-3 4h16M6 7h0M9 21H3M15 7v6"/><path d="M13.5 13h3l-.5 3h-2z"/><path d="M6 11l3-4M6 15l3-4"/></symbol><symbol id="i-bus" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="15" rx="2.5"/><path d="M4 11h16M8 21v-3M16 21v-3M8 14.5h.01M16 14.5h.01M9 6.5h6"/></symbol><symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 00.3 1.8l.1.1a2 2 0 11-2.8 2.8l-.1-.1a1.7 1.7 0 00-1.8-.3 1.7 1.7 0 00-1 1.5V21a2 2 0 11-4 0v-.1a1.7 1.7 0 00-1.1-1.5 1.7 1.7 0 00-1.8.3l-.1.1a2 2 0 11-2.8-2.8l.1-.1a1.7 1.7 0 00.3-1.8 1.7 1.7 0 00-1.5-1H3a2 2 0 110-4h.1a1.7 1.7 0 001.5-1.1 1.7 1.7 0 00-.3-1.8l-.1-.1a2 2 0 112.8-2.8l.1.1a1.7 1.7 0 001.8.3H9a1.7 1.7 0 001-1.5V3a2 2 0 114 0v.1a1.7 1.7 0 001 1.5 1.7 1.7 0 001.8-.3l.1-.1a2 2 0 112.8 2.8l-.1.1a1.7 1.7 0 00-.3 1.8V9a1.7 1.7 0 001.5 1H21a2 2 0 110 4h-.1a1.7 1.7 0 00-1.5 1z"/></symbol><symbol id="i-school" viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5zM6 11v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5M22 9v6"/></symbol><symbol id="i-car" viewBox="0 0 24 24"><path d="M5 16.5H3.5V12l2-5.5h13l2 5.5v4.5H19M5 12h14"/><circle cx="7.5" cy="16.5" r="2"/><circle cx="16.5" cy="16.5" r="2"/><path d="M9.5 16.5h5"/></symbol><symbol id="i-ship" viewBox="0 0 24 24"><path d="M2 20c1.5 1 3 1 4.5 0s3-1 4.5 0 3 1 4.5 0 3-1 4.5 0M4 17l-1-5h18l-2.5 5M6 12V7h8v5M9 7V4h2"/></symbol><symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></symbol><symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><circle cx="12" cy="12" r="5.5"/><circle cx="12" cy="12" r="1.5"/></symbol><symbol id="i-eye" viewBox="0 0 24 24"><path d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3"/></symbol><symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20.5s-8.5-5-8.5-11A4.8 4.8 0 0112 6.6a4.8 4.8 0 018.5 2.9c0 6-8.5 11-8.5 11z"/></symbol><symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18M5 21h14M4 7h16M7 7l-3 7a3 3 0 006 0zM17 7l-3 7a3 3 0 006 0z"/></symbol><symbol id="i-leaf" viewBox="0 0 24 24"><path d="M4 20c0-9 6-15 16-16-1 10-7 16-16 16zM4 20l8-8"/></symbol><symbol id="i-clipboard" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17.5" rx="2"/><path d="M9 4V2.5h6V4M8.5 10h7M8.5 14h7M8.5 18h4"/></symbol><symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="16.5" rx="2"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/></symbol><symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8.5 8.5 0 01-12.4 7.6L3 21l1.4-5A8.5 8.5 0 1121 12z"/></symbol><symbol id="i-quote" viewBox="0 0 24 24"><path d="M10 7H6a3 3 0 00-3 3v3h5v5H3M21 7h-4a3 3 0 00-3 3v3h5v5h-5" /></symbol><symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M12 11v5.5M12 7.5h.01"/></symbol><symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol><symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="5" r="2.5"/><path d="M8.5 19H16a3.5 3.5 0 000-7H8a3.5 3.5 0 010-7h7.5"/></symbol><symbol id="i-gauge" viewBox="0 0 24 24"><path d="M3.5 17a9 9 0 1117 0"/><path d="M12 14l4-5M12 14h.01"/></symbol><symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 2.5l10 5-10 5-10-5z"/><path d="M2 12l10 5 10-5M2 16.5l10 5 10-5"/></symbol><symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M3 21l1.6-4.6A9 9 0 1112 21a9 9 0 01-4.4-1.1z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 1a5 5 0 01-2.9-2.9l1-1-1-2z"/></symbol><symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7.5 10.5v6M7.5 7.5h.01M11.5 16.5v-6M11.5 13a2.5 2.5 0 015 0v3.5"/></symbol><symbol id="i-facebook" viewBox="0 0 24 24"><path d="M15 3.5h-2.5A3.5 3.5 0 009 7v3H6.5v3.5H9V21h3.5v-7.5H15l.5-3.5h-3V7.5a1 1 0 011-1H15z"/></symbol><symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol><symbol id="i-x" viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></symbol><symbol id="i-send" viewBox="0 0 24 24"><path d="M21.5 2.5L10 14M21.5 2.5L14.5 21.5 10 14 2.5 9.5z"/></symbol><symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 20h16"/></symbol></defs></svg>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="header" role="banner">
+  <div class="container container--wide header__inner">
+    <a class="brand" href="index.html" aria-label="Buffalo Oil Limited — home">
+  <img class="brand__mark" src="assets/img/buffalo-mark.png" alt="" width="427" height="383">
+  <span class="brand__type"><span class="brand__name">BUFFALO OIL</span><span class="brand__sub">LIMITED</span></span>
+</a>
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="about.html">About Us</a></li>
+        <li><a class="nav__link" href="services.html">Our Services</a></li>
+        <li><a class="nav__link" href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn--sm header__cta" href="contact.html">Get in Touch <svg class="icon " aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    <button class="menu-toggle" type="button" aria-controls="mobile-nav" aria-expanded="false" aria-label="Open menu">
+      <span class="menu-toggle__bars"><span></span><span></span></span>
+    </button>
+  </div>
+</header>
+<div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+  <ul class="mobile-nav__list">
+    <li><a href="index.html">Home <svg class="icon " aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a></li>
+    <li><a href="about.html">About Us <svg class="icon " aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a></li>
+    <li><a href="services.html">Our Services <svg class="icon " aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a></li>
+    <li><a href="contact.html">Contact Us <svg class="icon " aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a></li>
+  </ul>
+  <div class="mobile-nav__foot">
+    <a class="btn btn--lg" href="contact.html">Get in Touch <svg class="icon " aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    <p><svg class="icon " aria-hidden="true"><use href="#i-phone"/></svg> <span class="ph">[Phone number]</span> &nbsp;·&nbsp; <span class="ph">[Email address]</span></p>
+  </div>
+</div>
+
+<main id="main">
+<section class="page-hero" style="min-height:440px" aria-labelledby="page-title">
+  <div class="page-hero__media"><img src="assets/img/sparks-industry.jpg" alt=""></div>
+  <div class="container container--wide page-hero__inner">
+    <div><p class="eyebrow">Internal reference</p><h1 id="page-title">Design <em>System.</em></h1></div>
+    <p class="page-hero__aside">Tokens, components and art direction for the Buffalo Oil website. Mirrors the Figma pages "Design Overview &amp; Moodboard" and "Design System".</p>
+  </div>
+</section>
+
+<section class="sg-section"><div class="container">
+  <h2>Moodboard &amp; art direction</h2>
+  <p>Cinematic, dusk-toned industrial photography; deep blue-black overlays; orange used as light, not decoration. Large confident type, generous space, asymmetric compositions.</p>
+  <div class="sg-mood">
+    <div class="tall"><img src="assets/img/hero-truck-highway.jpg" alt="Truck on a highway at dusk"></div>
+    <div class="word" style="background:var(--orange-500)">Energy</div>
+    <div><img src="assets/img/process-pipework.jpg" alt="Industrial pipework"></div>
+    <div class="tall"><img src="assets/img/technician-hardhat.jpg" alt="Technician in hard hat"></div>
+    <div class="wide"><img src="assets/img/refinery-skyline.jpg" alt="Refinery skyline"></div>
+    <div class="word" style="background:var(--ink-950);color:#fff">Trust</div>
+    <div class="word" style="background:var(--brown-700);color:#fff">Strength</div>
+    <div class="wide"><img src="assets/img/hero-truck-highway.jpg" alt="Truck under a blue sky"></div>
+  </div>
+</div></section>
+
+<section class="sg-section"><div class="container">
+  <h2>Logo</h2>
+  <p>Primary asset supplied by the client. The bull mark is taken from the supplied logo; the BUFFALO OIL / LIMITED wordmark is typeset in Montserrat so it stays crisp at every size. Horizontal lockup for the header, stacked lockup for the footer. Request a vector (SVG) master for production.</p>
+  <div class="sg-row sg-row--dark" style="gap:48px">
+    <span class="brand brand--stacked" style="color:#fff"><img class="brand__mark" src="assets/img/buffalo-mark.png" alt=""><span class="brand__type"><span class="brand__name">BUFFALO OIL</span><span class="brand__sub">LIMITED</span></span></span>
+    <span class="brand" style="color:#fff"><img class="brand__mark" src="assets/img/buffalo-mark.png" alt=""><span class="brand__type"><span class="brand__name">BUFFALO OIL</span><span class="brand__sub">LIMITED</span></span></span>
+    <img src="assets/img/buffalo-mark.png" alt="Bull mark" width="90">
+  </div>
+</div></section>
+
+<section class="sg-section"><div class="container">
+  <h2>Colour</h2>
+  <p>Four brand families derived from the logo: Orange, Brown, White and Blue-black. No other hues are used.</p>
+  <div class="sg-colors">
+    <div class="sg-swatch"><div class="sg-swatch__chip" style="background:#f39c1f"><span>#f39c1f</span></div><strong>Orange 500 · Primary</strong><code>--orange-500</code></div>
+    <div class="sg-swatch"><div class="sg-swatch__chip" style="background:#e2820f"><span>#e2820f</span></div><strong>Orange 600 · Hover</strong><code>--orange-600</code></div>
+    <div class="sg-swatch"><div class="sg-swatch__chip" style="background:#f9c06a"><span>#f9c06a</span></div><strong>Orange 300</strong><code>--orange-300</code></div>
+    <div class="sg-swatch"><div class="sg-swatch__chip" style="background:#7b3f12;color:#fff"><span>#7b3f12</span></div><strong>Brown 700</strong><code>--brown-700</code></div>
+    <div class="sg-swatch"><div class="sg-swatch__chip" style="background:#3d1f0b;color:#fff"><span>#3d1f0b</span></div><strong>Brown 900</strong><code>--brown-900</code></div>
+    <div class="sg-swatch"><div class="sg-swatch__chip" style="background:#c99467"><span>#c99467</span></div><strong>Brown 300</strong><code>--brown-300</code></div>
+    <div class="sg-swatch"><div class="sg-swatch__chip" style="background:#060a11;color:#fff"><span>#060a11</span></div><strong>Blue-black 950</strong><code>--ink-950</code></div>
+    <div class="sg-swatch"><div class="sg-swatch__chip" style="background:#111a29;color:#fff"><span>#111a29</span></div><strong>Blue-black 800</strong><code>--ink-800</code></div>
+    <div class="sg-swatch"><div class="sg-swatch__chip" style="background:#5d6a80;color:#fff"><span>#5d6a80</span></div><strong>Slate 400 (text on dark)</strong><code>--ink-400</code></div>
+    <div class="sg-swatch"><div class="sg-swatch__chip" style="background:#ffffff"><span>#ffffff</span></div><strong>White</strong><code>--white</code></div>
+    <div class="sg-swatch"><div class="sg-swatch__chip" style="background:#f7f5f1"><span>#f7f5f1</span></div><strong>Warm White</strong><code>--paper</code></div>
+    <div class="sg-swatch"><div class="sg-swatch__chip" style="background:#efebe4"><span>#efebe4</span></div><strong>Warm White 2</strong><code>--paper-2</code></div>
+  </div>
+</div></section>
+
+<section class="sg-section"><div class="container">
+  <h2>Typography</h2>
+  <p>Archivo (display, 700–800, tight tracking) with Manrope (body, 400–800). Montserrat is reserved for the logo lockup only. Fluid sizes via clamp().</p>
+  <div class="sg-type">
+    <div><small>Display<br>Archivo 800 · 46–102px</small><span class="display">Fueling Ghana's Future.</span></div>
+    <div><small>H1<br>Archivo 800 · 40–74px</small><span class="h1">Built on strength.</span></div>
+    <div><small>H2<br>Archivo 800 · 32–56px</small><span class="h2">A fuel partner you can depend on.</span></div>
+    <div><small>H3<br>Archivo 700 · 22–30px</small><span class="h3">Bulk &amp; Commercial Supply</span></div>
+    <div><small>Lead<br>Manrope 400 · 17–21px</small><span class="lead">Delivering dependable petroleum solutions with a commitment to quality, reliability and exceptional service.</span></div>
+    <div><small>Body<br>Manrope 400 · 17px / 1.7</small><span>We are building our business on a simple promise: the right product, delivered safely, at the agreed time.</span></div>
+    <div><small>Eyebrow<br>Manrope 800 · 12.5px · 0.2em</small><span class="eyebrow" style="margin:0">Who we are</span></div>
+  </div>
+</div></section>
+
+<section class="sg-section"><div class="container">
+  <h2>Buttons &amp; links</h2>
+  <p>Pill buttons, 54px min height (44px small, 62px large) for touch. Hover sweeps a fill from below; arrow nudges right.</p>
+  <div class="sg-row"><a class="btn" href="#">Primary <svg class="icon " aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="btn btn--dark" href="#">Dark <svg class="icon " aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="btn btn--outline" href="#">Outline</a><a class="btn btn--sm" href="#">Small</a><a class="btn btn--lg" href="#">Large <svg class="icon " aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="link-arrow" href="#">Text link <svg class="icon " aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+  <div class="sg-row sg-row--dark mt-5"><a class="btn" href="#">Primary <svg class="icon " aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="btn btn--ghost" href="#">Ghost</a><a class="link-arrow" style="color:#fff" href="#">Text link <svg class="icon " aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+</div></section>
+
+<section class="sg-section"><div class="container">
+  <h2>Form fields</h2>
+  <p>56px inputs on warm white, orange focus ring, inline error state.</p>
+  <div class="form-grid" style="max-width:820px">
+    <div class="field"><label>Default</label><input class="input" placeholder="Placeholder"></div>
+    <div class="field is-invalid"><label>Error state</label><input class="input" value="not-an-email"><span class="field__error">Please enter a valid email address.</span></div>
+    <div class="field"><label>Select</label><select class="select"><option>Diesel (AGO)</option></select></div>
+    <div class="field"><label>Segmented choice</label><div class="segmented"><input type="radio" id="sg1" name="sg" checked><label for="sg1">Individual</label><input type="radio" id="sg2" name="sg"><label for="sg2">Business</label></div></div>
+  </div>
+</div></section>
+
+<section class="sg-section"><div class="container">
+  <h2>Cards</h2>
+  <p>Service card (default + feature), product card, contact card, testimonial card. Editable placeholders use the dashed orange style: <span class="ph">[Placeholder]</span></p>
+  <div class="services-grid" style="max-width:820px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+    <article class="service-card service-card--feature"><span class="service-card__num">01</span><span class="icon-tile"><svg class="icon " aria-hidden="true"><use href="#i-drop"/></svg></span><h3>Feature card</h3><p>Orange variant, used once per grid.</p></article>
+    <article class="service-card"><div class="service-card__bg"><img src="assets/img/port-bulk-supply.jpg" alt=""></div><span class="service-card__num">02</span><span class="icon-tile"><svg class="icon " aria-hidden="true"><use href="#i-barrel"/></svg></span><h3>Default card</h3><p>Image reveals on hover.</p></article>
+  </div>
+  <div class="contact-cards mt-6" style="max-width:820px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
+    <article class="product"><span class="product__code">AGO</span><svg class="icon drop" aria-hidden="true"><use href="#i-truck"/></svg><h3>Product card</h3><p>Lifts and gains an orange border on hover.</p></article>
+    <article class="contact-card"><span class="icon-tile icon-tile--solid"><svg class="icon " aria-hidden="true"><use href="#i-phone"/></svg></span><h3>Contact card</h3><span class="contact-card__value"><span class="ph">[Phone number]</span></span></article>
+  </div>
+</div></section>
+
+<section class="sg-section"><div class="container">
+  <h2>Iconography</h2>
+  <p>Custom 24px line set, 1.6px stroke, round caps and joins. Use orange on dark, ink on light.</p>
+  <div class="sg-icons"><div><svg class="icon " aria-hidden="true"><use href="#i-arrow"/></svg><span>arrow</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-arrow-up-right"/></svg><span>arrow-up-right</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-truck"/></svg><span>truck</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-tanker"/></svg><span>tanker</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-drop"/></svg><span>drop</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-pump"/></svg><span>pump</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-factory"/></svg><span>factory</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-shield"/></svg><span>shield</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-badge"/></svg><span>badge</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-handshake"/></svg><span>handshake</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-clock"/></svg><span>clock</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-phone"/></svg><span>phone</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-mail"/></svg><span>mail</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-pin"/></svg><span>pin</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-building"/></svg><span>building</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-oilcan"/></svg><span>oilcan</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-flame"/></svg><span>flame</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-barrel"/></svg><span>barrel</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-users"/></svg><span>users</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-user"/></svg><span>user</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-hardhat"/></svg><span>hardhat</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-tractor"/></svg><span>tractor</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-pickaxe"/></svg><span>pickaxe</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-crane"/></svg><span>crane</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-bus"/></svg><span>bus</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-gear"/></svg><span>gear</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-school"/></svg><span>school</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-car"/></svg><span>car</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-ship"/></svg><span>ship</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-bolt"/></svg><span>bolt</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-target"/></svg><span>target</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-eye"/></svg><span>eye</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-heart"/></svg><span>heart</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-scale"/></svg><span>scale</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-leaf"/></svg><span>leaf</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-clipboard"/></svg><span>clipboard</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-calendar"/></svg><span>calendar</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-chat"/></svg><span>chat</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-quote"/></svg><span>quote</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-info"/></svg><span>info</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-check"/></svg><span>check</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-route"/></svg><span>route</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-gauge"/></svg><span>gauge</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-layers"/></svg><span>layers</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-whatsapp"/></svg><span>whatsapp</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-linkedin"/></svg><span>linkedin</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-facebook"/></svg><span>facebook</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-instagram"/></svg><span>instagram</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-x"/></svg><span>x</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-send"/></svg><span>send</span></div><div><svg class="icon " aria-hidden="true"><use href="#i-download"/></svg><span>download</span></div></div>
+</div></section>
+
+<section class="sg-section"><div class="container">
+  <h2>Spacing, radii &amp; grid</h2>
+  <p>4px base scale. 12-column grid, 1280px container, 24px gutters (16px on mobile). Radii: 8 / 14 / 22 / 32 / pill.</p>
+  <div class="sg-space">
+    <div><code style="width:60px">--s-1</code><span style="width:4px"></span>4px</div><div><code style="width:60px">--s-2</code><span style="width:8px"></span>8px</div><div><code style="width:60px">--s-3</code><span style="width:12px"></span>12px</div><div><code style="width:60px">--s-4</code><span style="width:16px"></span>16px</div><div><code style="width:60px">--s-5</code><span style="width:24px"></span>24px</div><div><code style="width:60px">--s-6</code><span style="width:32px"></span>32px</div><div><code style="width:60px">--s-7</code><span style="width:48px"></span>48px</div><div><code style="width:60px">--s-8</code><span style="width:64px"></span>64px</div><div><code style="width:60px">--s-9</code><span style="width:96px"></span>96px</div><div><code style="width:60px">--s-10</code><span style="width:128px"></span>128px</div>
+  </div>
+  <div class="sg-grid-demo mt-7"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="sg-row mt-6" style="gap:20px"><div style="width:90px;height:90px;background:var(--ink-950);border-radius:8px;display:grid;place-items:center;color:#fff;font-size:.8rem">8px</div><div style="width:90px;height:90px;background:var(--ink-950);border-radius:14px;display:grid;place-items:center;color:#fff;font-size:.8rem">14px</div><div style="width:90px;height:90px;background:var(--ink-950);border-radius:22px;display:grid;place-items:center;color:#fff;font-size:.8rem">22px</div><div style="width:90px;height:90px;background:var(--ink-950);border-radius:32px;display:grid;place-items:center;color:#fff;font-size:.8rem">32px</div><div style="width:90px;height:90px;background:var(--ink-950);border-radius:999px;display:grid;place-items:center;color:#fff;font-size:.8rem">pill</div></div>
+</div></section>
+</main>
+
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__about">
+        <a class="brand brand--stacked footer__logo" href="index.html" aria-label="Buffalo Oil Limited — home"><img class="brand__mark" src="assets/img/buffalo-mark.png" alt="" width="427" height="383" loading="lazy"><span class="brand__type"><span class="brand__name">BUFFALO OIL</span><span class="brand__sub">LIMITED</span></span></a>
+        <p>Buffalo Oil Limited is a Ghanaian Oil Marketing Company committed to supplying quality petroleum products with reliability, safety and exceptional customer service.</p>
+        <div class="socials" aria-label="Social media (links to be added)">
+          <a href="#" aria-label="LinkedIn — link to be added"><svg class="icon " aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+          <a href="#" aria-label="Facebook — link to be added"><svg class="icon " aria-hidden="true"><use href="#i-facebook"/></svg></a>
+          <a href="#" aria-label="Instagram — link to be added"><svg class="icon " aria-hidden="true"><use href="#i-instagram"/></svg></a>
+          <a href="#" aria-label="WhatsApp — link to be added"><svg class="icon " aria-hidden="true"><use href="#i-whatsapp"/></svg></a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.html#values">Our Values</a></li>
+          <li><a href="about.html#hse">Health, Safety &amp; Environment</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#fuel-supply">Petroleum Products Supply</a></li>
+          <li><a href="services.html#bulk-supply">Bulk &amp; Commercial Supply</a></li>
+          <li><a href="services.html#delivery">Fuel Delivery &amp; Logistics</a></li>
+          <li><a href="services.html#lubricants">Lubricants</a></li>
+          <li><a href="services.html#retail">Fuel Retail</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in Touch</h4>
+        <ul class="footer__contact">
+          <li><svg class="icon " aria-hidden="true"><use href="#i-pin"/></svg><span class="ph">[Office address, City, Region, Ghana]</span></li>
+          <li><svg class="icon " aria-hidden="true"><use href="#i-phone"/></svg><span class="ph">[Phone number]</span></li>
+          <li><svg class="icon " aria-hidden="true"><use href="#i-mail"/></svg><span class="ph">[Email address]</span></li>
+          <li><svg class="icon " aria-hidden="true"><use href="#i-clock"/></svg><span class="ph">[Business hours]</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__giant" aria-hidden="true">BUFFALO OIL</div>
+    <div class="footer__bottom">
+      <p>&copy; <span data-year>2026</span> Buffalo Oil Limited. All rights reserved.</p>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Use</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
